@@ -1,0 +1,53 @@
+@font-face {
+     font-family: 'Material Icons';
+     src: url('../font/MaterialIcons-Regular.ttf') format('truetype'),
+          url('../font/materialicons-regular-webfont.woff') format('woff'),
+          url('../font/materialicons-regular-webfont.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+   
+   .material-icons {
+     font-family: 'Material Icons', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 24px;
+     display: inline-block;
+     line-height: 1;
+     text-transform: none;
+     letter-spacing: normal;
+     word-wrap: normal;
+     white-space: nowrap;
+     direction: ltr;
+   }
+   
+   /* Modifikasi Slider */
+   .slider h3,
+   .slider h5,
+   .clients h3 {
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+     /* text-shadow: x-offset y-offset blur color; */
+   }
+
+   /* Modifikasi container parallax */
+   /* Materialize mungkin memiliki aturan bawaan yang menetapkan tinggi parallax-container. Anda dapat menggunakan !important untuk memastikan override: */
+   body .parallax-container {
+    height: 20%;
+  }
+  
+
+   .parallax img {
+     filter: grayscale(1);
+     opacity: 0.5 !important;
+   }
+   
+   .clients img {
+     max-width: 150px;
+     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+   }
+
+   section, footer {
+    padding: 20px 0;
+    /* padding: 20px(atas-bawah) 0(kiri-kanan); */
+   }
+
